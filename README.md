@@ -16,6 +16,7 @@ Once I got LibSass compiled I tested it with its sister app SassC, which was bla
 Hello Gulp
 ----------
 Omega 4 by default uses Grunt to run each task defined in the build process but there are drawbacks, Grunt is config-heavy, just take a look at your sub-theme's Gruntfile and you'll notice how at the end of each task files are saved to the disk only to be read back in by the next task. By replacing the temp file paradigm with an efficient "stream" passing through pipes not only is Gulp faster than Grunt but also easier to maintain as it requires less configuration.
+https://gist.github.com/benmirkhah/88ed979b8967c189fa4e
 
 
 Pros / Advantages
